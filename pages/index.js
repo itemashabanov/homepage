@@ -78,11 +78,11 @@ const Page = () => {
 					</BioSection>
 					<BioSection>
 						<BioYear>2015</BioYear>
-						Finished school and entered bachelor's degree at Minsk Innovation University on Information technology software.
+						Finished school and entered bachelor&apos;s degree at Minsk Innovation University on Information technology software.
 					</BioSection>
 					<BioSection>
 						<BioYear>2019</BioYear>
-						Entered master's degree at Minsk Innovation University on Informatics and programming technologies.
+						Entered master&apos;s degree at Minsk Innovation University on Informatics and programming technologies.
 					</BioSection>
 					<BioSection>
 						<BioYear>2019 to present</BioYear>
