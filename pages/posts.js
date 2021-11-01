@@ -17,7 +17,7 @@ const Posts = () => (
                     <GridItem
                         title="My online-shop"
                         thumbnail={thumbTechstore}
-                        href="https://techstore.js/"
+                        href="https://techstore.lt/"
                     />
                 </SimpleGrid>
             </Section>
