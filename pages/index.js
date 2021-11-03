@@ -23,6 +23,9 @@ import {
 	IoLogoGithub
 } from "react-icons/io5"
 import thumbTechstore from "../public/images/links/techstore.png"
+import thumbKassopttorg from "../public/images/links/kassopttorg.png"
+import thumbSpbkassa from "../public/images/links/spbkassa.png"
+import thumbDivua from "../public/images/links/divua.png"
 
 const Page = () => {
 	return (
@@ -121,11 +124,32 @@ const Page = () => {
 					</List>
 					<SimpleGrid columns={[1, 2, 2]} gap={6} mt={6}>
 						<GridItem
+							href="https://kassopttorg.ru"
+							title="kassopttorg.ru"
+							thumbnail={thumbKassopttorg}
+						>
+							Online store selling cash registers
+						</GridItem>
+						<GridItem
+							href="https://divua-cosmetic.ru"
+							title="divua-cosmetic.ru"
+							thumbnail={thumbDivua}
+						>
+							Online cosmetics store
+						</GridItem>
+						<GridItem
+							href="https://spb-kassa.ru"
+							title="spb-kassa.ru"
+							thumbnail={thumbSpbkassa}
+						>
+							Online store selling cash registers
+						</GridItem>
+						<GridItem
 							href="https://techstore.lt"
 							title="TECHSTORE.lt"
 							thumbnail={thumbTechstore}
 						>
-							My online-shop of Apple&apos;s devices
+							My online-store of Apple&apos;s devices
 						</GridItem>
 					</SimpleGrid>
 
