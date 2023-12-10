@@ -1,12 +1,12 @@
 import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
+import { GridItem } from '../components/grid-item'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { GridItem } from '../components/grid-item'
-
-import thumbTechstore from '../public/images/contents/techstore.png'
-import thumbDivua from '../public/images/contents/divua.png'
 import thumbKassopttorg from '../public/images/contents/kassopttorg.png'
-import thumbSpbkassa from '../public/images/contents/spbkassa.png'
+import thumbPkksc from '../public/images/contents/pkksc-main.png'
+import thumbSpbkassa from '../public/images/contents/spb_kassa-main.png'
+import thumbTangoPizza from '../public/images/contents/tango-main.png'
+import thumbAgency from '../public/images/contents/thagency.png'
 
 const Posts = () => (
     <Layout title="Posts">
@@ -18,29 +18,34 @@ const Posts = () => (
             <Section delay={0.1}>
                 <SimpleGrid columns={[1, 2, 2]} gap={6}>
                     <GridItem
+                        title="Software agency web site"
+                        thumbnail={thumbAgency}
+                        href="https://soft-dev-agency-a1ohg89ql-itemashabanov.vercel.app"
+                    />
+                    <GridItem
                         title="Online store selling cash registers"
                         thumbnail={thumbKassopttorg}
                         href="https://kassopttorg.ru"
                     />
-                     <GridItem
-                        title="Online cosmetics store"
-                        thumbnail={thumbDivua}
-                        href="https://divua-cosmetic.ru"
+                    <GridItem
+                        title="Sport center's web site"
+                        thumbnail={thumbPkksc}
+                        href="https://github.com/itemashabanov"
+                    />
+                    <GridItem
+                        title="Pizzeria web site"
+                        thumbnail={thumbTangoPizza}
+                        href="https://github.com/itemashabanov"
                     />
                     <GridItem
                         title="Online store selling cash registers"
                         thumbnail={thumbSpbkassa}
-                        href="https://spb-kassa.ru"
-                    />
-                    <GridItem
-                        title="My online-store of Apple&apos;s devices"
-                        thumbnail={thumbTechstore}
-                        href="https://techstore.lt/"
+                        href="https://github.com/itemashabanov"
                     />
                 </SimpleGrid>
             </Section>
         </Container>
-  </Layout>
+    </Layout>
 )
 
 export default Posts

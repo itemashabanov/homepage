@@ -1,12 +1,12 @@
-import { Container, Heading, SimpleGrid } from "@chakra-ui/react"
-import Section from "../components/section"
-import { WorkGridItem } from "../components/grid-item"
-import Layout from "../components/layouts/article"
-
-import thumbTechstore from "../public/images/works/techstore.png"
-import thumbDivua from "../public/images/works/divua.png"
-import thumbSpbkassa from "../public/images/works/spbkassa.png"
-import thumbKassopttorg from "../public/images/works/kassopttorg.png"
+import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
+import { WorkGridItem } from '../components/grid-item'
+import Layout from '../components/layouts/article'
+import Section from '../components/section'
+import thumbKassopttorg from '../public/images/works/kassopttorg.png'
+import thumbPkksc from '../public/images/works/pkksc-main.png'
+import thumbSpbkassa from '../public/images/works/spb_kassa-main.png'
+import thumbTangoPizza from '../public/images/works/tango-main.png'
+import thumbAgency from '../public/images/works/thagency.png'
 
 const Works = () => (
     <Layout title="Works">
@@ -15,19 +15,42 @@ const Works = () => (
                 Works
             </Heading>
 
-            <SimpleGrid column={[1,1,2]} gap={6}>
+            <SimpleGrid column={[1, 1, 2]} gap={6}>
                 <Section>
-                    <WorkGridItem id="kassopttorg" title="kassopttorg.ru" thumbnail={thumbKassopttorg}>
+                    <WorkGridItem
+                        id="thagency"
+                        title="https://soft-dev-agency-a1ohg89ql-itemashabanov.vercel.app"
+                        thumbnail={thumbAgency}
+                    >
+                        Software agency web site
+                    </WorkGridItem>
+                    <WorkGridItem
+                        id="kassopttorg"
+                        title="kassopttorg.ru"
+                        thumbnail={thumbKassopttorg}
+                    >
                         Online store selling cash registers
                     </WorkGridItem>
-                    <WorkGridItem id="divua" title="divua-cosmetic.ru" thumbnail={thumbDivua}>
-                        Online cosmetics store
+                    <WorkGridItem
+                        id="pkksc"
+                        title="https://github.com/itemashabanov"
+                        thumbnail={thumbPkksc}
+                    >
+                        Sport center`&apos;`s web site
                     </WorkGridItem>
-                    <WorkGridItem id="spb-kassa" title="spb-kassa.ru" thumbnail={thumbSpbkassa}>
+                    <WorkGridItem
+                        id="tangopizza"
+                        title="https://github.com/itemashabanov"
+                        thumbnail={thumbTangoPizza}
+                    >
+                        Pizzeria web site
+                    </WorkGridItem>
+                    <WorkGridItem
+                        id="spb-kassa"
+                        title="https://github.com/itemashabanov"
+                        thumbnail={thumbSpbkassa}
+                    >
                         Online store selling cash registers
-                    </WorkGridItem>
-                    <WorkGridItem id="techstore" title="TECHSTORE.lt" thumbnail={thumbTechstore}>
-                        A online-shop of Apple&apos;s Devices 
                     </WorkGridItem>
                 </Section>
             </SimpleGrid>
