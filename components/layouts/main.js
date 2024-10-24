@@ -1,7 +1,7 @@
+import { Box, Container } from '@chakra-ui/react'
 import Head from 'next/head'
 import Navbar from "../navbar.js"
 import NoSsr from '../no-ssr'
-import { Box, Container } from '@chakra-ui/react'
 import VoxelToroto from '../voxel-toroto'
 
 const Main = ({ children, router }) => {
@@ -9,7 +9,7 @@ const Main = ({ children, router }) => {
 		<Box as="main" pb={8}>
 			<Head>
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
-				<title>Artem Shabanov</title>
+				<title>Artsiom Shabanau</title>
 			</Head>
 
 			<Navbar path={router.asPath} />
