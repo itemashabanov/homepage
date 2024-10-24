@@ -1,0 +1,8 @@
+.mySwiper .swiper-slide {
+    height: 100px !important;
+}
+.mySwiper .swiper-slide img {
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}

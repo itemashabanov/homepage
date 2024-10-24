@@ -1,7 +1,7 @@
-import Link from "next/link"
-import Image from "next/image"
-import {Text, useColorModeValue} from "@chakra-ui/react"
+import { Text, useColorModeValue } from "@chakra-ui/react"
 import styled from "@emotion/styled"
+import Image from "next/image"
+import Link from "next/link"
 
 const LogoBox = styled.span`
     font-weight: bold;
@@ -30,7 +30,7 @@ const Logo = () => {
                         fontFamily="M PLUS Rounded 1c"
                         fontWeight="bold"
                         ml={3}>
-                            Artem Shabanov
+                            Artsiom Shabanau
                         </Text>
                 </LogoBox>
             </a>

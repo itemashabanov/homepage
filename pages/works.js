@@ -36,10 +36,10 @@ const Works = () => (
                         title="https://github.com/itemashabanov"
                         thumbnail={thumbPkksc}
                     >
-                        Sport center`&apos;`s web site
+                        Sport center&apos;s web site
                     </WorkGridItem>
                     <WorkGridItem
-                        id="tangopizza"
+                        id="tango-pizza"
                         title="https://github.com/itemashabanov"
                         thumbnail={thumbTangoPizza}
                     >

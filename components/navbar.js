@@ -1,20 +1,20 @@
-import Logo from "./logo"
-import NextLink from "next/link"
+import { HamburgerIcon } from "@chakra-ui/icons"
 import {
-    Container,
     Box,
-    Link,
-    Stack,
-    Heading,
+    Container,
     Flex,
+    Heading,
+    IconButton,
+    Link,
     Menu,
+    MenuButton,
     MenuItem,
     MenuList,
-    MenuButton,
-    IconButton,
+    Stack,
     useColorModeValue
 } from "@chakra-ui/react"
-import { HamburgerIcon } from "@chakra-ui/icons"
+import NextLink from "next/link"
+import Logo from "./logo"
 import ThemeToggleButton from "./theme-toggle-button"
 
 const LinkItem = ({ href, path, _target, children, ...props }) => {
@@ -43,7 +43,7 @@ const Navbar = props => {
             w="100%"
             bg={useColorModeValue("#ffffff40", "#20202380")}
             style={{backdropFilter:"blur(10px)"}}
-            zIndex={1}
+            zIndex={3}
             {...props}>
                 <Container display="flex" p={2} maxW="container.md" wrap="wrap" align="center" justify="space-between">
                     <Flex align="center" mr={5}>
@@ -83,7 +83,6 @@ const Navbar = props => {
                                     <NextLink href="/posts" passHref>
                                         <MenuItem as={Link}>Posts</MenuItem>
                                     </NextLink>
-                                    <MenuItem as={Link} href="https://techstore.lt">My shop</MenuItem>
                                 </MenuList>
                             </Menu>
                         </Box>

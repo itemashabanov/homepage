@@ -1,15 +1,15 @@
-import { Container, Badge, Link, List, ListItem } from "@chakra-ui/react"
 import { ExternalLinkIcon } from "@chakra-ui/icons"
-import { Title, WorkImage, Meta } from "../../components/work"
-import P from "../../components/paragraph"
+import { Badge, Container, Link, List, ListItem } from "@chakra-ui/react"
 import Layout from "../../components/layouts/article"
+import P from "../../components/paragraph"
+import { Meta, Title, WorkImage } from "../../components/work"
 
 const Work = () => {
     return (
         <Layout title="Kassopttorg">
             <Container>
                 <Title>
-                    Kassopttorg <Badge>2017</Badge>
+                    Kassopttorg <Badge>2019</Badge>
                 </Title>
                 <P>
                     Online store selling cash registers
@@ -27,7 +27,7 @@ const Work = () => {
                     </ListItem>
                     <ListItem>
                         <Meta>Stack</Meta>
-                        <span>HTML, CSS, JS, jQuery, PHP, 1C-Bitrix.</span>
+                        <span>HTML, CSS, JS, GSAP, PHP</span>
                     </ListItem>
                 </List>
 

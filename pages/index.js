@@ -42,9 +42,9 @@ const Page = () => {
                 <Box display={{ md: 'flex' }}>
                     <Box flexGrow={1}>
                         <Heading as="h2" variant="page-title">
-                            Artem Shabanov
+                            Artsiom Shabanau
                         </Heading>
-                        <p>FrontEnd Developer</p>
+                        <p>Front End Engineer</p>
                     </Box>
                     <Box
                         flexShrink={0}
@@ -70,39 +70,24 @@ const Page = () => {
                         Summury
                     </Heading>
                     <Paragraph>
-                        Motivated and dedicated front-end developer with over 3
-                        years of professional experience in the field. Qualified
-                        in Angular, React and Vue.js.
+                        I am a front-end developer with more than 4 years of experience.
                     </Paragraph>
                     <Paragraph>
-                        As a developer, I have actively contributed to the
-                        implementation of user interfaces and features, and
-                        managing tasks throughout all stages of the web
-                        application development process, collaborating closely
-                        with other developers to ensure high-quality code and
-                        adherence to best practices. I possess a solid
-                        understanding of front-end development principles and
-                        have a keen eye for detail when it comes to creating
-                        visually appealing and responsive user interfaces.
+                    I can work both independently and in a team. I have experience developing projects from scratch, as well as experience in
+supporting and finalizing ready-made solutions. I can easily find a common language with people and delegate tasks, analyze
+solutions and choose the most suitable one for the product. I am accustomed to effectively managing and prioritizing tasks,
+ensuring timely delivery and meeting project deadlines.
                     </Paragraph>
                     <Paragraph>
-                        During my time in the industry, I have gained valuable
-                        experience working in Agile environments, particularly
-                        with Kanban. I am accustomed to effectively managing and
-                        prioritizing tasks, ensuring timely delivery and meeting
-                        project deadlines. I am also proactive in my approach to
-                        problem-solving, continuously seeking opportunities to
-                        learn and grow as a developer.
+                    As a developer, I have actively contributed to the implementation of user interfaces and features, and managing tasks throughout
+all stages of the web application evelopment process, collaborating closely with other developers to ensure high-quality code and
+adherence to best practices.
                     </Paragraph>
                     <Paragraph>
-                        Overall, I am eager to contribute to challenging
-                        projects and expand my skill set further. I am
-                        passionate about delivering user-centric web
-                        applications that provide seamless experiences. I am
-                        seeking opportunities to work in a collaborative
-                        environment where I can learn from experienced
-                        professionals and make meaningful contributions to
-                        innovative projects.
+                    In unclear situations, I see an opportunity to figure out a solution and thereby learn something new.
+                    </Paragraph>
+                    <Paragraph>
+                    I seek work situations where I can apply my current experience and gain new skills.
                     </Paragraph>
                     <Box align="center" my={4}>
                         <NextLink href="/works">
@@ -130,24 +115,23 @@ const Page = () => {
                     </BioSection>
                     <BioSection>
                         <BioYear>2015</BioYear>
-                        Graduated from high school and went to Minsk Innovation
-                        University to study information technology.
+                        Graduated from high school and enrolled at Minsk Innovation University to study Information Technology.
                     </BioSection>
                     <BioSection>
                         <BioYear>2019</BioYear>
-                        Continued my studies to obtain a master`&apos;`s degree.
+                        Continued my studies to obtain a master&apos;s degree.
                     </BioSection>
                     <BioSection>
                         <BioYear>2019 to 2022</BioYear>
-                        Worked as a FrontEnd developer at Kassopttorg.
+                        Worked as a Front End Developer at Kassopttorg.
                     </BioSection>
                     <BioSection>
                         <BioYear>2022 to 2023</BioYear>
-                        Worked as a JavaScript developer at Softeq.
+                        Worked as a JavaScript Developer at Softeq.
                     </BioSection>
                     <BioSection>
                         <BioYear>2023 to present</BioYear>
-                        Took my time for traveling and self-education.
+                        Contract with the leading UK-based open-banking platform.
                     </BioSection>
                 </Section>
 
@@ -156,33 +140,50 @@ const Page = () => {
                         Experience
                     </Heading>
                     <BioYear>2019 to 2022</BioYear>
-                    FrontEnd developer at Kassopttorg.
+                    Front End Developer at Kassopttorg.
                     <Paragraph>
-                        During the period of work in this company, I was engaged
-                        in the development and support of an online shop. I had
-                        the opportunity to write various modules such as
-                        registration, authorisation, comments and rating module
-                        for products, various components of product
-                        customisation and integrations with third-party
-                        services. I had a chance to work with element animation
-                        tools, such as GSAP. It was an interesting experience to
-                        participate in the development of a large project from
-                        the very first stages.
+                    I was engaged in the development and support of an online shop and my work included:<br />
+- increasing the number of visitors and visits to the site by 4 times<br />
+- accelerating site loading by 3 times<br />
+- automating the process of registering cash register equipment, which reduced the load on managers (~20% of time spent)<br />
+- developing modules for product comments, reviews, product rating, product configurator, authentication via sms and other
+modules<br />
+- implementing third-party solutions (payment, delivery, search)<br />
+- gaining experience in managing subcontractors (designers, backend specialists)<br />
+I had the chance to work with element animation tools, such as GSAP. It was an interesting experience to participate in the
+development of a large project from the very first stages.
                     </Paragraph>
                     <br />
                     <BioYear>2022 to 2023</BioYear>
-                    JavaScript developer at Softeq.
+                    JavaScript Developer at Softeq.
                     <Paragraph>
-                        In this job I have been developing new features and
-                        components on 3 different projects using React and
-                        Angular. These were projects such as employee management
-                        systems, booking systems. In the process of work I had
-                        to create additional functionality and refine the
-                        current one, create new modules, communicate with all
-                        team members (about 20 people) to achieve the best
-                        result. It was a great experience working in a
-                        multinational company and on several different projects
-                        at the same time.
+                    In this job I developed new features and components on 3 different projects using React and Angular. In particular, I:<br />
+- developed an employee management system<br />
+- participated in the development of a day off management application for employees<br />
+- participated in the development of an application for booking a workspace in the office<br />
+- implemented metrics to analyse user actions<br />
+- integrated third-party services<br />
+- developed layout emails, and onboarded new employees<br />
+Working in a multinational company and on several different projects at the same time proved to be a great experience.
+                    </Paragraph>
+                    <br />
+                    <BioYear>2023 to present</BioYear>
+                    Software Engineer
+                    <Paragraph>
+                    During the current period, I worked on projects of different complexity: from creating simple web applications on Vue.js, to large
+web applications with complex logic. Moreover, I was engaged in:<br />
+- implemented localisation for the project in 5 languages, with all related sub-tasks such as routing, seo, etc.<br />
+- wrote documentation for projects, which positively influenced the speed of onboarding of new employees and their
+familiarisation with internal libraries.<br />
+- participated in the development of utility libraries, assemblies, for use in other projects of the company, which allowed to adhere
+to the DRY principle on several projects.<br />
+- updated the project to the current version of angular and dependencies.<br />
+- implemented Angular Universal(SSR) on a project.<br />
+- direct interaction with customers, subcontractors<br />
+- analysis of requirements<br />
+- the drawing up a development plan<br />
+The most interesting project I found particularly rewarding is a full-fledged online booking system. In this project technologies such
+as React, Next.js, TailwindCSS and others were used.
                     </Paragraph>
                 </Section>
 
@@ -191,8 +192,7 @@ const Page = () => {
                         I ❤️
                     </Heading>
                     <Paragraph>
-                        Programming, photography, traveling, playing pool,
-                        driving.
+                    I’m passionate about capturing the world through the lens, exploring new places, and embracing creativity. Photography is my way of telling stories, while traveling allows me to find new inspiration in every corner of the globe. When I’m not behind the camera, you’ll find me swimming, building with Lego, or diving into the latest tech trends. My diverse interests fuel my creative process, and I’m always eager to learn and innovate in everything I do.
                     </Paragraph>
                 </Section>
 
@@ -279,7 +279,7 @@ const Page = () => {
                             title="PKKSC"
                             thumbnail={thumbPkksc}
                         >
-                            Sport center`&apos;`s web site
+                            Sport center&apos;s web site
                         </GridItem>
                     </SimpleGrid>
 
