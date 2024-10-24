@@ -260,14 +260,14 @@ as React, Next.js, TailwindCSS and others were used.
                             Online store selling cash registers
                         </GridItem>
                         <GridItem
-                            href="https://github.com/itemashabanov"
+                            href="/works/tango-pizza"
                             title="tangopizza"
                             thumbnail={thumbTangoPizza}
                         >
                             Pizzeria web site
                         </GridItem>
                         <GridItem
-                            href="https://github.com/itemashabanov"
+                            href="/works/spb-kassa"
                             title="spb-kassa.ru"
                             thumbnail={thumbSpbkassa}
                         >
@@ -275,7 +275,7 @@ as React, Next.js, TailwindCSS and others were used.
                         </GridItem>
 
                         <GridItem
-                            href="https://github.com/itemashabanov"
+                            href="/works/pkksc"
                             title="PKKSC"
                             thumbnail={thumbPkksc}
                         >
